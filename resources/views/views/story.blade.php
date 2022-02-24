@@ -1,0 +1,1 @@
+<a href="/{{$post->attachment ? '' : 'login.jpg'}}"><img src="{{$post->attachment ? '' : 'login.jpg'}}" class="rounded-circle mr-1" width="75px" height="75px" alt="{{$post->subject}}"></a>
